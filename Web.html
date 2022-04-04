@@ -6,13 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Website</title>
     <link rel="stylesheet" href="src/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <section class="hero">
       <div class="main-width">
         <header>
           <div class="logo">
-            <i class="fa-solid fa-e"></i>
+            <i class="fa-solid fa-d"></i>
           </div>
           <nav>
             <div class="hamb">
@@ -32,7 +40,7 @@
         <div class="container">
           <div class="hero-text">
             <h3>Hi, There!</h3>
-            <h1>I am <span>Devy Lauder</span></h1>
+            <h1>I am <span class="input"></span></h1>
             <p>This is my personal website.</p>
             <div class="social">
               <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
@@ -43,9 +51,25 @@
             </div>
             <button type="button">More About Me</button>
           </div>
-          <div class=""
         </div>
       </div>
     </section>
+
+    <script type="text/javascript" src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script>
+      var typed = new Typed(".input", {
+        strings: [
+          "Devy Lauder.",
+          "Web Developer.",
+          "UX Designer.",
+          "Photographer.",
+        ],
+        typeSpeed: 50,
+        backspeed: 40,
+        loop: true,
+      });
+    </script>
   </body>
 </html>
