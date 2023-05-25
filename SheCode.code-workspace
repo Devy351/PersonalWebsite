@@ -1,0 +1,45 @@
+{
+  "folders": [
+	{
+		"name": "SheCode",
+		"path": "..\\SheCode"
+	},
+	{
+		"name": "weather-app-project",
+		"path": "..\\..\\Documentos\\GitHub\\weather-app-project"
+	},
+	{
+		"name": "Weather-app-homework",
+		"path": "..\\Weather-app-homework"
+	},
+	{
+		"name": "vanilla-weather-app",
+		"path": "..\\vanilla-weather-app"
+	},
+	{
+		"name": "vanilla-weather-forecast",
+		"path": "..\\vanilla-weather-forecast"
+	},
+	{
+		"name": "Vanilla-Weather-Forecast-",
+		"path": "..\\Vanilla-Weather-Forecast-"
+	},
+	{
+		"name": "Coding",
+		"path": "..\\Coding"
+	},
+	{
+		"path": "..\\Home.JasVan"
+	},
+	{
+		"path": "."
+	},
+	{
+		"path": "..\\jasvangames"
+	},
+	{
+		"path": "..\\index.html"
+	}
+],
+  "settings": {}
+}
